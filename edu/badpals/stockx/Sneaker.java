@@ -3,7 +3,7 @@ package edu.badpals.stockx;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Sneaker {
+public class Sneaker implements Item{
     public List<Offer> offers = new ArrayList<>();
     private final String style;
     private final String name;
@@ -50,13 +50,7 @@ public class Sneaker {
 
     @Override
     public String toString() {
-        return "Sneaker{" +
-                "style='" + style + '\'' +
-                ", name='" + name + '\'' +
-                ", sale=" + sale +
-                ", ask=" + ask +
-                ", bid=" + bid +
-                '}';
+        return getName() + "\n\t\t" + getStyle();
     }
 
     public void add(Offer offer){
