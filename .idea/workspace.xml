@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a22747ea-bee0-46c3-b2a6-b487dcea2f32" name="Changes" comment="feat: creating Interfaces">
-      <change afterPath="$PROJECT_DIR$/edu/badpals/stockx/Sneaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-    </list>
+    <list default="true" id="a22747ea-bee0-46c3-b2a6-b487dcea2f32" name="Changes" comment="fix: update gitignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709578068091</updated>
-      <workItem from="1709578069211" duration="2612000" />
+      <workItem from="1709578069211" duration="2921000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -96,7 +92,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709579820777</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: creating class Sneaker.java">
+      <option name="closed" value="true" />
+      <created>1709580873449</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709580873449</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix: update gitignore">
+      <option name="closed" value="true" />
+      <created>1709580956398</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709580956398</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +117,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="feat: creating Interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: creating Interfaces" />
+    <MESSAGE value="feat: creating class Sneaker.java" />
+    <MESSAGE value="fix: update gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: update gitignore" />
   </component>
 </project>

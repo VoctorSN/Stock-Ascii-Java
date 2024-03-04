@@ -158,3 +158,11 @@ buildNumber.properties
 ######################
 ###### Resources #####
 ######################
+
+# Intellij
+.idea/
+*.iml
+
+# Maven
+log/
+target/
