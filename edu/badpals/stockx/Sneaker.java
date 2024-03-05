@@ -50,7 +50,7 @@ public class Sneaker implements Item{
 
     @Override
     public String toString() {
-        return getName() + "\n\t\t" + getStyle();
+        return getStyle() + "\n\t\t" + getName();
     }
 
     public void add(Offer offer){

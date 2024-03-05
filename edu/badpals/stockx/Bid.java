@@ -21,13 +21,10 @@ public class Bid implements Offer{
 
     @Override
     public int compareTo(Offer offer) {
-        return 0;
+        return this.bid.compareTo(offer.value());
     }
     @Override
     public String toString() {
-        return "Bid{" +
-                "size='" + size + '\'' +
-                ", bid=" + bid +
-                '}';
+        return "\t\t" + size() + "\t\t" + value() + "\n";
     }
 }

@@ -19,7 +19,7 @@ public class Sale implements Offer {
 
     @Override
     public int compareTo(Offer offer) {
-        return 0;
+        return this.bid.compareTo(offer.value());
     }
 
     @Override
