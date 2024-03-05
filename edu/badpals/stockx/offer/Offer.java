@@ -1,4 +1,4 @@
-package edu.badpals.stockx;
+package edu.badpals.stockx.offer;
 
 public interface Offer {
     public String size();

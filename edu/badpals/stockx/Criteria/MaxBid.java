@@ -1,10 +1,14 @@
-package edu.badpals.stockx;
+package edu.badpals.stockx.Criteria;
 
-import java.util.ArrayList;
+import edu.badpals.stockx.Criteria.Criteria;
+import edu.badpals.stockx.item.Item;
+import edu.badpals.stockx.offer.Bid;
+import edu.badpals.stockx.offer.Offer;
+
 import java.util.List;
 import java.util.Optional;
 
-public class MaxBid implements Criteria{
+public class MaxBid implements Criteria {
 
     public MaxBid(){}
 

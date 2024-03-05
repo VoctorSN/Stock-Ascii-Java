@@ -1,9 +1,14 @@
-package edu.badpals.stockx;
+package edu.badpals.stockx.Criteria;
+
+import edu.badpals.stockx.Criteria.Criteria;
+import edu.badpals.stockx.item.Item;
+import edu.badpals.stockx.offer.Ask;
+import edu.badpals.stockx.offer.Offer;
 
 import java.util.List;
 import java.util.Optional;
 
-public class MinAsk implements Criteria{
+public class MinAsk implements Criteria {
     public MinAsk(){}
 
     @Override

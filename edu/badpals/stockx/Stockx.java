@@ -1,5 +1,13 @@
 package edu.badpals.stockx;
 
+import edu.badpals.stockx.Criteria.*;
+import edu.badpals.stockx.item.Item;
+import edu.badpals.stockx.item.Sneaker;
+import edu.badpals.stockx.offer.Ask;
+import edu.badpals.stockx.offer.Bid;
+import edu.badpals.stockx.offer.Offer;
+import edu.badpals.stockx.offer.Sale;
+
 import java.util.List;
 
 /**

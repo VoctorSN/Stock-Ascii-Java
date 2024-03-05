@@ -1,9 +1,14 @@
-package edu.badpals.stockx;
+package edu.badpals.stockx.Criteria;
+
+import edu.badpals.stockx.Criteria.AndCriteria;
+import edu.badpals.stockx.Criteria.Criteria;
+import edu.badpals.stockx.item.Item;
+import edu.badpals.stockx.offer.Offer;
 
 import java.util.List;
 import java.util.Optional;
 
-public class Min implements Criteria{
+public class Min implements Criteria {
     private Criteria criteria;
     private Criteria otherCriteria;
 

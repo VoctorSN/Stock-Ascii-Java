@@ -1,9 +1,11 @@
-package edu.badpals.stockx;
+package edu.badpals.stockx.item;
+
+import edu.badpals.stockx.offer.Offer;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Sneaker implements Item{
+public class Sneaker implements Item {
     public List<Offer> offers = new ArrayList<>();
     private final String style;
     private final String name;

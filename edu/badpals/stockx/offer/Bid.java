@@ -1,6 +1,7 @@
-package edu.badpals.stockx;
+package edu.badpals.stockx.offer;
 
-public class Bid implements Offer{
+
+public class Bid implements Offer {
     private String size;
     private Integer bid;
 
