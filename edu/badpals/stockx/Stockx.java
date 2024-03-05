@@ -1,5 +1,7 @@
 package edu.badpals.stockx;
 
+import java.util.List;
+
 /**
  * StockX nació en Detroit, y allí siguen haciendo
  * las cosas a la manera tradicional, 
@@ -110,7 +112,7 @@ public class Stockx {
          * Guarda esta ask minima en la propiedad
          * ask de sneaker.
          */
-/*
+
         Criteria minAsk = new MinAsk();
         List<Offer> minimum = minAsk.checkCriteria(sneaker);
         sneaker.setAsk(minimum.isEmpty()? 0 : minimum.get(0).value());
@@ -136,7 +138,7 @@ public class Stockx {
          * solo las ventas /sales de entre las 
          * offers de la zapatilla.
          */
-/*
+
         Criteria sales = new Sales();
         System.out.println("\n\t\t All SALES");
         sales.checkCriteria(sneaker).forEach(System.out::print);

@@ -2,7 +2,6 @@ package edu.badpals.stockx;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Asks implements Criteria{
     public Asks(){}
