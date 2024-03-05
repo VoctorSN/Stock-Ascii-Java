@@ -1,6 +1,5 @@
 package edu.badpals.stockx.Criteria;
 
-import edu.badpals.stockx.Criteria.Criteria;
 import edu.badpals.stockx.item.Item;
 import edu.badpals.stockx.offer.Ask;
 import edu.badpals.stockx.offer.Offer;

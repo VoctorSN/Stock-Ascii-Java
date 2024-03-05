@@ -13,7 +13,7 @@ public class Sneaker implements Item {
     private int ask;
     private int bid;
 
-    public Sneaker(String name,String style){
+    public Sneaker(String style,String name){
         this.name = name;
         this.style = style;
     }
