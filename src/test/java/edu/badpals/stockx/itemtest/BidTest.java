@@ -1,9 +1,9 @@
 package edu.badpals.stockx.itemtest;
 
+import static org.junit.Assert.assertEquals;
+
 import edu.badpals.stockx.offer.Bid;
 import org.junit.Test;
-
-import static org.junit.Assert.assertEquals;
 
 public class BidTest {
 

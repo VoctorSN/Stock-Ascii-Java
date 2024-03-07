@@ -15,6 +15,6 @@ public class LastSale implements Criteria {
 
         return salesList.isEmpty()?
                 List.of()
-                : List.of(salesList.get(salesList.size() -1));
+                : List.of(salesList.getLast());
     }
 }

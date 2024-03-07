@@ -42,4 +42,15 @@ public class SneakerTest {
         sneaker.add(ask);
         assertEquals(3, sneaker.offers().size());
     }
+
+    public static class BidTest {
+
+        @Test
+        public void constructorTest() {
+            Bid bid = new Bid("9.5", 282);
+            assertEquals(282, bid.value());
+            assertEquals("9.5", bid.size());
+        }
+
+    }
 }
